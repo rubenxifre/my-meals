@@ -13,7 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         let window = UIWindow(windowScene: scene)
         self.window = window
-        self.window?.rootViewController = ViewController()
+        self.window?.rootViewController = RecipesListConfigurator.prepare()
         self.window?.makeKeyAndVisible()
     }
 
