@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Chicken Curry",
+    "ingredients": "- Chicken\n- Curry",
+    "identifier": "0",
+    "instructions": "Very tasty chicken curry!"
+  },
+  {
+    "title": "Salad",
+    "ingredients": "- Lettuce\n- Tomato",
+    "identifier": "1",
+    "instructions": "Delicious!"
+  },
+  {
+    "title": "Burrito",
+    "ingredients": "- Tortilla\n- Beans\n- Rice",
+    "identifier": "2",
+    "instructions": "Awesome!"
+  }
+]
