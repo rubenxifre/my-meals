@@ -118,10 +118,10 @@
 		C9429B3A27DCEF1800859F81 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C9E5359B27E0C1E600591534 /* Common */,
 				C9429B3C27DCF07E00859F81 /* AppDelegate */,
+				C9E5359B27E0C1E600591534 /* Common */,
 				C9429B4527DD06A800859F81 /* Models */,
-				C9429B3E27DD055300859F81 /* RecipesList */,
+				C9E535A227E0ECBE00591534 /* Scenes */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -148,12 +148,12 @@
 		C9429B3E27DD055300859F81 /* RecipesList */ = {
 			isa = PBXGroup;
 			children = (
-				C9429B5327DDF9CA00859F81 /* DataProvider */,
-				C9429B4E27DD0C2400859F81 /* Presenter */,
 				C9429B4827DD077400859F81 /* RecipesListConfigurator.swift */,
 				C9429B4A27DD07E800859F81 /* RecipesListInteractor.swift */,
 				C9429B4327DD062B00859F81 /* RecipesListInterfaces.swift */,
 				C9429B4127DD059D00859F81 /* RecipesListViewController.swift */,
+				C9429B5327DDF9CA00859F81 /* DataProvider */,
+				C9429B4E27DD0C2400859F81 /* Presenter */,
 			);
 			path = RecipesList;
 			sourceTree = "<group>";
@@ -161,8 +161,8 @@
 		C9429B4527DD06A800859F81 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C9429B4627DD06B300859F81 /* Recipe.swift */,
 				C9429B4C27DD08A400859F81 /* MyMealsError.swift */,
+				C9429B4627DD06B300859F81 /* Recipe.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -208,6 +208,14 @@
 				C9E535A027E0D64800591534 /* recipes.json */,
 			);
 			path = Sample;
+			sourceTree = "<group>";
+		};
+		C9E535A227E0ECBE00591534 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C9429B3E27DD055300859F81 /* RecipesList */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
